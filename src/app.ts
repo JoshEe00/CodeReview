@@ -4,7 +4,7 @@ const runApp = () => {
   const result1 = add(5, 10);
   console.log("Add Result: ", result1);
 
-  const result2 = divide(10, 1000); // intentional bug: divide by zero
+  const result2 = divide(10, 1000);
   console.log("Divide Result: ", result2);
 };
 
